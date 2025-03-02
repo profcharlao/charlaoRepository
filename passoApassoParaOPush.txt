@@ -1,0 +1,57 @@
+Após fazer uma alteração em um arquivo no seu repositório Git, o passo a passo para enviar essa alteração para o repositório remoto (no GitHub, por exemplo) é o seguinte:
+
+### Passo 1: Verifique o estado do repositório
+Use o comando `git status` para ver as alterações feitas.
+
+```bash
+git status
+```
+
+Se houver arquivos modificados, você verá algo assim:
+
+```
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   nome-do-arquivo
+```
+
+### Passo 2: Adicionar as mudanças ao staging area
+Para preparar as alterações para o commit, adicione os arquivos alterados ao "staging area" usando `git add`.
+
+```bash
+git add nome-do-arquivo
+```
+
+Ou para adicionar todos os arquivos modificados:
+
+```bash
+git add .
+```
+
+### Passo 3: Comitar as alterações
+Depois de adicionar os arquivos ao staging area, faça o commit das mudanças com uma mensagem explicando o que foi alterado.
+
+```bash
+git commit -m "Mensagem explicativa sobre a alteração"
+```
+
+### Passo 4: Enviar as alterações para o repositório remoto
+Agora, você pode enviar as alterações para o repositório remoto usando o comando `git push`.
+
+```bash
+git push origin main
+```
+
+Onde `origin` é o nome do repositório remoto e `main` é o nome da branch (pode ser `master` ou outra, dependendo do seu repositório).
+
+---
+
+### Resumo:
+1. `git status` — Verifique as alterações.
+2. `git add .` — Adicione os arquivos modificados ao staging area.
+3. `git commit -m "Mensagem de alteração"` — Comite as mudanças com uma mensagem explicativa.
+4. `git push origin main` — Envie as alterações para o repositório remoto.
+
+Após isso, as alterações estarão disponíveis no GitHub ou outro repositório remoto que você estiver usando.
+
+Se precisar de mais detalhes ou tiver outra dúvida, é só falar! 😊
