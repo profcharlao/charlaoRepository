@@ -1,0 +1,4 @@
+O caminho ~/OneDrive/desktop mostra que você está usando o OneDrive como o local de armazenamento para a área de trabalho. Quando você abre a área de trabalho, ela está sincronizada com a sua conta do OneDrive, então qualquer alteração é refletida em todos os dispositivos conectados à sua conta.
+
+
+Teste commit
