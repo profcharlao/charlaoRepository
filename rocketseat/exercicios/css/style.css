@@ -1,0 +1,52 @@
+/*COMENTÁRIOS*/
+body{
+    background-color: darkgrey;
+}
+.h1Azul{
+    color: blue;
+    font-size: 60px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+}
+.h1Rosa {
+    color: pink;
+    font-size: 60px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.h3Brown{
+    
+    color: brown;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.h3Rosa{
+    color: pink;
+    font-size: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+p{
+    color: cyan;
+    text-align: center;
+
+}
+.pVerde{
+    color: green;
+    
+}
+#pAzul{
+    color: blue;
+    flex: auto;
+}
+
