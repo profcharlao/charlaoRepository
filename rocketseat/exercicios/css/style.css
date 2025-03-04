@@ -1,52 +1,119 @@
-/*COMENTÁRIOS*/
-body{
-    background-color: darkgrey;
+*{  
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-weight: 900;
 }
-.h1Azul{
-    color: blue;
-    font-size: 60px;
-    letter-spacing: 10px;
-    text-transform: uppercase;
+header {
+  
 
-}
-.h1Rosa {
-    color: pink;
-    font-size: 60px;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-    text-align: center;
+    width: 100vw;
+    height: 16vh;
+    background-image:url(/rocketseat/imagens/larga1.jpg) ;    color: gold;
     
 }
+h1 {
+  
+    color: #2ecc71;   
 
-.h3Brown{
+    text-transform: capitalize;
+    border: 1px solid black;
+    width: 100vw;
+    height: 27vh;
+    background-color: bisque;
+    text-align: center;
+    letter-spacing: .3rem;
+
+}
+
+span{
+    display: inline-block;
+    /*Configs do Elemento */
+    border: 1px solid black;
+    background-color: #2ecc71;
+    width: 100vw;
+    height: 50vh;
+
+    /* Configs de Fontes */
+    font-size: 1rem;
+    text-align: right;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-weight: 900;
+}
+
+#span1{
+    display: inline-block;
+    /*Configs do Elemento */
+    border: 1px solid black;
+    background-color: #795548;
+    width: 100vw;
+    height: 50vh;
+
+    /* Configs de Fontes */
+    font-size: 1rem;
+    text-align: center;
+    word-spacing: 1.5rem;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-weight: 900;
+
+}
+#span2{
+    display: inline-block;
+    /*Configs do Elemento */
+    border: 1px solid black;
+    background-color: #3498db;
+    width: 100vw;
+    height: 50vh;
+
+    /* Configs de Fontes */
+    font-size: 1rem;
+    text-align: left;
+    font-family: "Playwrite IT Moderna", cursive;
+    font-weight: 900;
+}
+#m1{
+    background-color: inherit; 
+    color: #795548;
+
+}
+#m2{
+    background-color: inherit;    
+    color: #3498db;
+
+
+}
+#m3{
+    background-color: inherit;   
+    color: #2c3e50;   
+ 
+
+}
+a{
+    display: inline-block;
+    /*Configs do Elemento */
+    border: 1px solid black;
+    background-color: chartreuse;
+    width: 100vw;
+    height: 10vh;
+    text-decoration-color: black;
+    text-decoration:underline;
     
-    color: brown;
-    font-size: 20px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    text-align: center;
 
 }
-.h3Rosa{
-    color: pink;
-    font-size: 20px;
-    letter-spacing: 10px;
-    text-transform: uppercase;
-    text-align: center;
+aside{
+    display: inline-block;
+    /*Configs do Elemento */
+    border: 1px solid black;
+    width: 100vw;
+    height: 100vh;
+    text-decoration-color: black;
+    text-decoration:underline;
+    background-image: url("/rocketseat/imagens/tool-9253437_640.jpg");
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
 
 }
 
-p{
-    color: cyan;
-    text-align: center;
-
-}
-.pVerde{
-    color: green;
-    
-}
-#pAzul{
-    color: blue;
-    flex: auto;
-}
 
