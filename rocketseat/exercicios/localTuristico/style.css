@@ -1,124 +1,142 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-:root{
-    font-family: "Open Sans", sans-serif; 
 
+:root {
+    font-family: "Open Sans", sans-serif;
 }
 
-body{
+body {
     background-color: #F5F4F0;
     border-color: #D9D9D9;
-}
-main{
-    margin: 88px 80px;
+    width: 100%;
 }
 
+main {
+    margin: 88px auto;
+    max-width: 1120px;
+    padding: 20px;
+}
+  
 
 
-.img1{
+img {
+    max-width: 100%;
+    height: auto;
     border-radius: 28px;
-    width: 1120px;
-    height: 729;
-}
-.img2{
-    border-radius: 28px;
-    width: 1120px;
-    height: 350;
-}
-.img3{
-    border-radius: 28px;
-    width: 1120px;
-    height: 350;
-}
-.img4{
-    border-radius: 28px;
-    width: 1120px;
-    height: 350;
+    
 }
 
+.img1 {
+    width: 100%;
+    height: 729px;
+}
 
-.h1{
-    font-family: "Open Sans", sans-serif; 
+.img2, .img3, .img4 {
+    width: 100%;
+    height: 350px;
+}
+
+.h1 {
     font-size: 36px;
-    font-weight: bold;   
+    font-weight: bold;
     color: #1B1B1B;
 }
-.h2{
-    font-family: "Open Sans", sans-serif; 
+
+.h2 {
     font-size: 32px;
-    font-weight: bold;  
-    color: #333333; 
+    font-weight: bold;
+    color: #333333;
 }
-.h3{
-    font-family: "Open Sans", sans-serif; 
+
+.h3 {
     font-size: 28px;
-    font-weight: bold;   
+    font-weight: bold;
     color: #696969;
 }
-.headline{
-    font-family: "Open Sans", sans-serif; 
+
+.headline {
+    margin-top: 60;
     font-size: 16px;
-    font-weight: bold;   
+    font-weight: bold;
     color: #E1624F;
 }
-.paragraph{
-    font-family: "Open Sans", sans-serif; 
+
+.paragraph {
     font-size: 16px;
     font-weight: normal;
-    color: #333333; 
-
+    color: #333333;
+    text-align: justify;
+    margin: 12px;
 }
-.subtitle{
-    font-family: "Open Sans", sans-serif; 
+
+.subtitle {
     font-size: 16px;
-    font-style:  italic;   
+    font-style: italic;
     text-align: center;
+    margin: 24px auto 40px auto;
+    color: #696969;
+
 }
 
-ol{
-    margin-left: 50px
+ol {
+    margin-left: 50px;
 }
 
-.accentBlue{
+.accentBlue {
     color: #0C51A7;
     font-weight: bold;
 }
-.accentOrange{
+
+.accentOrange {
     color: #E95E10;
     font-weight: bold;
-
 }
-.accentPink{
+
+.accentPink {
     color: #E5245E;
     font-weight: bold;
-
 }
-.accentPurple{
+
+.accentPurple {
     color: #591B98;
     font-weight: bold;
-
 }
 
-.textPrimary{
-    font-family: "Open Sans", sans-serif; 
+.textPrimary {
     font-size: 16px;
-    font-weight: bold;   
+    font-weight: bold;
     color: #1B1B1B;
 }
-.textSecundary{
-    font-family: "Open Sans", sans-serif; 
-    font-size: 16px;
-    color: #333333; 
-    font-weight: normal;
 
+.textSecundary {
+    font-size: 16px;
+    color: #333333;
+    font-weight: normal;
     text-align: center;
 }
-.textTerciary{
-    font-family: "Open Sans", sans-serif; 
+
+.textTerciary {
     font-size: 16px;
-    font-weight: bold;   
+    font-weight: bold;
     color: #696969;
+}
+footer{
+    margin: 50px 50px;
+}
+#pFinal{
+    font-size: 16px;
+    color: #333333;
+    font-weight: normal;
+    text-align: center;
+    margin: 40px auto 12px auto;
+}
+.li-number{
+   font-size: large; 
+    font-weight: 900;
+}
+.bomPara{
+    margin: 24px ;
 }
